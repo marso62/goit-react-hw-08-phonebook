@@ -1,0 +1,30 @@
+.phoneBook_container {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    font-size: 40px;
+    color: blue;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title_anim-appear {
+    transform: translateX(-100%);
+}
+
+.title_anim-appear-active {
+    transform: translateX(0);
+    transition: transform 500ms linear;
+}
+
+.form_fade-appear {
+    transform: translateX(100%);
+}
+
+.form_fade-appear-active {
+    transform: translateX(0);
+    transition: transform 500ms linear;
+}

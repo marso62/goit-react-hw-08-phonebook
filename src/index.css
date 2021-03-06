@@ -1,0 +1,130 @@
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+.Navigation {
+    border-bottom: 2px solid #212121;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    
+}
+
+.Navigation_log-reg{
+   
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  
+  list-style: none;
+  
+
+}
+  
+.Navigation-link {
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: cursive;
+}
+  
+.Navigation-link-active {
+    color: rgb(245, 149, 6);
+}
+  
+.userMenu{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  font-family: fantasy;
+}
+
+.userMenu p{
+  margin: 0;
+  padding: 0;
+  padding-top: 7px;
+  font-size: 20px;
+  color: rgb(245, 149, 6);
+  font-family: cursive;
+}
+  
+.userMenu button{
+  padding: 0;
+  width: 100px;
+  height: 30px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background-color: rgb(235, 5, 5);
+  cursor: pointer;
+  align-self: center;
+  font-family: cursive;
+  font-size: 16px;
+}
+  
+ 
+ .Contacts_title{
+   display: block;
+   text-decoration: none;
+   font-size: 30px;
+   font-family: cursive;
+   color: rgb(245, 149, 6);
+
+ }
+/* =================================================== */
+ .form_register{
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   font-size: 16px;
+   margin: auto;
+
+ }
+
+ .register_title{
+  font-family: cursive;
+  color: rgb(245, 149, 6);
+  text-align: center;
+ }
+
+ .form_register label{
+   text-align: center;
+   margin-bottom: 15px;
+   font-family: cursive;
+   color: rgb(245, 149, 6);
+ }
+
+ .form_register input{
+   text-align: center;
+   width: 300px;
+   display: block;
+   border: 2px solid rgb(7, 5, 112);
+   border-radius: 5px;
+   margin-top: 5px;
+ } 
+
+ .form_register button{
+   margin: 0 auto;
+   width: 100px;
+   border-radius: 5px;
+   cursor: pointer;
+   background-color: chartreuse;
+   font-family: cursive;
+  
+ }
+
+

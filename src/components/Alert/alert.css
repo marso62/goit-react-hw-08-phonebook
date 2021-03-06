@@ -1,0 +1,21 @@
+.alert {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: red;
+    text-align: center;
+    width: 140px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.anim-appear {
+    transform: translateX(400%);
+}
+
+.anim-appear-active {
+    transform: translateX(0);
+    transition: transform 500ms linear;
+}

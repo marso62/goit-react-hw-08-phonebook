@@ -1,0 +1,51 @@
+.findContact {
+    height: 70px;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+}
+
+.findContact p {
+    margin: 0;
+    padding: 10px 0px 5px 10px;
+
+}
+
+.inputName {
+    margin: 0 auto;
+    width: 370px;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.find-appear {
+    transform: scale(0.1);
+}
+
+.find-appear-active {
+    transform: scale(1);
+    transition: transform 250ms linear;
+}
+
+
+
+/* .find-enter {
+    opacity: 0;
+
+}
+
+.find-enter-active {
+    opacity: 1;
+    transition: opacity 500ms linear;
+}
+*/
+
+.find-exit {
+    transform: scale(1);
+
+}
+
+.find-exit-active {
+    transform: scale(0.1);
+    transition: transform 250ms linear;
+}
